@@ -39,6 +39,13 @@ start_windows.bat
 http://127.0.0.1:8000/
 ```
 
+如果 8000 端口被占用或被 Windows 拦截，程序会自动切换到其他可用端口，并在黑色命令行窗口里显示新的地址，例如：
+
+```text
+Port 8000 is unavailable; using port 8001.
+Video Monitor Console: http://127.0.0.1:8001/
+```
+
 使用时请保持启动脚本的命令行窗口打开。关闭窗口或按 `Ctrl+C` 会停止本地控制台服务。
 
 ## 文件存储位置
@@ -141,6 +148,8 @@ start_windows.bat 8080
 ```text
 http://127.0.0.1:8080/
 ```
+
+新版程序也会自动避开不可用端口。如果浏览器页面打不开，请以黑色命令行窗口里打印的 `Video Monitor Console: ...` 地址为准。
 
 ## 手机访问说明
 
