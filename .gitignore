@@ -1,0 +1,16 @@
+.DS_Store
+.venv/
+.build-python/
+.playwright-browsers/
+.pip-cache/
+.temp/
+build/
+dist/
+installer-output/
+__pycache__/
+*.pyc
+.pytest_cache/
+.browser-profile/
+reports/
+playwright-report/
+test-results/
